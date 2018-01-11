@@ -8,7 +8,7 @@ $(document).ready(function(){
 		//do ajax call
 		$.ajax({
 			type:"post",
-			url:"http://localhost:8080/recipe15/list/employees/",
+			url:"list/employees/",
 			contentType: "application/json; charset=utf-8",
 			headers: {},
 	        dataType:"json",
@@ -58,7 +58,7 @@ $(document).ready(function(){
 		//do ajax call
 		$.ajax({
 			type:"post",
-			url:"http://localhost:8080/recipe15/insert/",
+			url:"insert/",
 			contentType: "application/json; charset=utf-8",
 			headers: {},
 	        dataType:"json",
@@ -79,7 +79,7 @@ $(document).ready(function(){
 		//do ajax call
 		$.ajax({
 			type:"post",
-			url:"http://localhost:8080/recipe15/employee?employeeId=" + employeeId,
+			url:"employee?employeeId=" + employeeId,
 			contentType: "application/json; charset=utf-8",
 			headers: {},
 	        dataType:"json",
@@ -130,7 +130,7 @@ $(document).ready(function(){
 		//do ajax call
 		$.ajax({
 			type:"post",
-			url:"http://localhost:8080/recipe15/employee/inject?number=" + number,
+			url:"employee/inject?number=" + number,
 			contentType: "application/json; charset=utf-8",
 			headers: {},
 	        dataType:"json",

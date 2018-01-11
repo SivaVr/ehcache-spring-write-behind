@@ -39,7 +39,7 @@ import org.springframework.stereotype.Repository;
 public final class CacheDelegate {
 
   private static final Logger log = Logger.getLogger(CacheDelegate.class);
-  private static final String EHCACHE_CONFIG = "src/main/resources/ehcache.xml";
+  private static final String EHCACHE_CONFIG = "C:/Users/shivakumar.m/git/ehcache-spring-write-behind/src/main/resources/ehcache.xml";
   private static final String CACHE_NAME = "employeeCache";
   
   private CacheManager manager;
